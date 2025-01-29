@@ -5,6 +5,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.Base64;
 import java.util.Map;
 
+/**
+ * Извлекает запрошенные данные из JWT-токена
+ */
 public class JwtPayloader {
 
     private static final int JWT_TOKEN_SIZE = 3;
